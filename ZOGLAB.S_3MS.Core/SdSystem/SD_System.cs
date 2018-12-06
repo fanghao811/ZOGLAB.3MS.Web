@@ -9,8 +9,8 @@ namespace ZOGLAB.S_3MS.SD
     /// <summary>
     /// 系统配置信息表(SD_System)
     /// </summary>
-    [Table("SdSystem", Schema = "SD")]
-    public class SdSystem : Entity<long>, IHasCreationTime
+    [Table("SD_System")]
+    public class SD_System : Entity<long>, IHasCreationTime
     {
         public const int MaxLength_20 = 20;
         public const int MaxLength_50 = 50;
@@ -51,7 +51,7 @@ namespace ZOGLAB.S_3MS.SD
         public DateTime CreationTime { get; set; }
 
         //构造函数
-        public SdSystem()
+        public SD_System()
         {
             CreationTime = DateTime.Now;
         }

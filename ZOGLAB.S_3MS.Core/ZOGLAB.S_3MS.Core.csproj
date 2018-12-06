@@ -198,9 +198,9 @@
     <Compile Include="Notifications\AppNotifier.cs" />
     <Compile Include="Notifications\IAppNotifier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SdReport\SdReport.cs" />
-    <Compile Include="SdSystem\SdSystem.cs" />
-    <Compile Include="SdUtil\SdUtil.cs" />
+    <Compile Include="SdReport\SD_Report.cs" />
+    <Compile Include="SdSystem\SD_System.cs" />
+    <Compile Include="SdUtil\SD_Util.cs" />
     <Compile Include="Security\PasswordComplexityChecker.cs" />
     <Compile Include="Security\PasswordComplexitySetting.cs" />
     <Compile Include="Storage\DbBinaryObjectManager.cs" />

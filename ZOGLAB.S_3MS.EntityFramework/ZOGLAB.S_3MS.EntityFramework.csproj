@@ -388,6 +388,10 @@
     <Compile Include="Migrations\201702191840505_Added_Tenant_UI_Customization_Properties.Designer.cs">
       <DependentUpon>201702191840505_Added_Tenant_UI_Customization_Properties.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812060941444_Added-BD_report_and_system_and_util_entities.cs" />
+    <Compile Include="Migrations\201812060941444_Added-BD_report_and_system_and_util_entities.Designer.cs">
+      <DependentUpon>201812060941444_Added-BD_report_and_system_and_util_entities.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="AbpZeroTemplateDataModule.cs" />
     <Compile Include="Migrations\Seed\Host\DefaultEditionCreator.cs" />
@@ -583,6 +587,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201702191840505_Added_Tenant_UI_Customization_Properties.resx">
       <DependentUpon>201702191840505_Added_Tenant_UI_Customization_Properties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812060941444_Added-BD_report_and_system_and_util_entities.resx">
+      <DependentUpon>201812060941444_Added-BD_report_and_system_and_util_entities.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

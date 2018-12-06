@@ -9,8 +9,8 @@ namespace ZOGLAB.S_3MS.SD
     /// <summary>
     /// 共用信息配置表(SD_Utils)
     /// </summary>
-    [Table("Util", Schema = "SD")]
-    public class SdUtil : Entity<long>, IHasCreationTime
+    [Table("SD_Util")]
+    public class SD_Util : Entity<long>, IHasCreationTime
     {
         public const int MaxLength_10 = 10;
         public const int MaxLength_50 = 50;
@@ -54,7 +54,7 @@ namespace ZOGLAB.S_3MS.SD
         public DateTime CreationTime { get; set; }
 
         //构造函数
-        public SdUtil()
+        public SD_Util()
         {
             CreationTime = DateTime.Now;
         }

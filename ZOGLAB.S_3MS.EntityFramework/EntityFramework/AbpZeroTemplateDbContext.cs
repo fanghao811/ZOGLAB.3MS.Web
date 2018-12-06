@@ -30,9 +30,9 @@ namespace ZOGLAB.S_3MS.EntityFramework
         public virtual IDbSet<ChatMessage> ChatMessages { get; set; }
 
         /* 新增三个系统实体 2018/12/06  */
-        public virtual IDbSet<SdReport> SdReports { get; set; }
-        public virtual IDbSet<SdSystem> SdSystem { get; set; }
-        public virtual IDbSet<SdUtil> SdUtil { get; set; }
+        public virtual IDbSet<SD_Report> SD_Reports { get; set; }
+        public virtual IDbSet<SD_System> SD_System { get; set; }
+        public virtual IDbSet<SD_Util> SD_Utils { get; set; }
 
         public AbpZeroTemplateDbContext()
             : base("Default")

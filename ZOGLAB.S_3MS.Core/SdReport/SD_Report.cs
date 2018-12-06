@@ -12,8 +12,8 @@ namespace ZOGLAB.S_3MS.SD
     /// <summary>
     /// 共用信息配置表(SD_Utils)
     /// </summary>
-    [Table("Report", Schema = "SD")]
-    public class SdReport : Entity<long>, IHasCreationTime
+    [Table("SD_Report")]
+    public class SD_Report : Entity<long>, IHasCreationTime,IDeletionAudited
     {
         public const int MaxLength_10 = 10;
         public const int MaxLength_50 = 50;
@@ -35,7 +35,6 @@ namespace ZOGLAB.S_3MS.SD
         public string ReportPath { get; set; }
 
         //5.报表参数
-        [MaxLength(MaxLength_50)]
         public int ReportParams { get; set; }
 
         /// <summary>
@@ -45,7 +44,6 @@ namespace ZOGLAB.S_3MS.SD
         public string RoleName { get; set; }
 
         //7.是否开启
-        [MaxLength(MaxLength_50)]
         public bool IsActive { get; set; }
 
         //8.描述
@@ -58,9 +56,12 @@ namespace ZOGLAB.S_3MS.SD
 
         //10.录入日期
         public DateTime CreationTime { get; set; }
-     
+        public long? DeleterUserId { get; set; }
+        public DateTime? DeletionTime { get; set; }
+        public bool IsDeleted { get; set; }
+
         //构造函数
-        public SdReport(
+        public SD_Report(
             string code,
             string name,           
             ReportType type,
@@ -86,13 +87,13 @@ namespace ZOGLAB.S_3MS.SD
 
             CreationTime = Clock.Now;
         }
-        protected SdReport()
+        protected SD_Report()
         {
 
         }
 
     }
-    public enum ReportType : byte
+    public enum ReportType
     {
         数据类报表 = 1,
         分析类报表 = 2

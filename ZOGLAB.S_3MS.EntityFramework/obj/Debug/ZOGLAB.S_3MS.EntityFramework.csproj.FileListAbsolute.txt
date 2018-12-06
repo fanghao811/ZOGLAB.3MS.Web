@@ -238,3 +238,4 @@ C:\FH\Source\ZOGLAB.3MS.Web\src\ZOGLAB.S_3MS.EntityFramework\obj\Debug\ZOGLAB.S_
 C:\FH\Source\ZOGLAB.3MS.Web\src\ZOGLAB.S_3MS.EntityFramework\obj\Debug\ZOGLAB.S_3MS.EntityFramework.csproj.CopyComplete
 C:\FH\Source\ZOGLAB.3MS.Web\src\ZOGLAB.S_3MS.EntityFramework\obj\Debug\ZOGLAB.S_3MS.EntityFramework.dll
 C:\FH\Source\ZOGLAB.3MS.Web\src\ZOGLAB.S_3MS.EntityFramework\obj\Debug\ZOGLAB.S_3MS.EntityFramework.pdb
+C:\FH\Source\ZOGLAB.3MS.Web\src\ZOGLAB.S_3MS.EntityFramework\obj\Debug\ZOGLAB.S_3MS.Migrations.AddedBD_report_and_system_and_util_entities.resources
