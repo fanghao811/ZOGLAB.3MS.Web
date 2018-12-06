@@ -10,7 +10,7 @@ namespace ZOGLAB.S_3MS.SD
     /// 系统配置信息表(SD_System)
     /// </summary>
     [Table("SD_System")]
-    public class SD_System : Entity<long>, IHasCreationTime
+    public class SD_System :Entity<long>, IHasCreationTime
     {
         public const int MaxLength_20 = 20;
         public const int MaxLength_50 = 50;
