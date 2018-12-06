@@ -1,0 +1,224 @@
+﻿DEBUG 2018-12-06 11:07:52,533 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-12-06 11:07:52,561 [1    ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+DEBUG 2018-12-06 11:07:52,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.Web.AbpZeroTemplateWebModule, ZOGLAB.S_3MS.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 11:07:52,579 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 11:07:52,580 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 11:07:52,593 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 11:07:52,593 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 11:07:52,593 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 11:07:52,593 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 11:07:52,594 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.AbpZeroTemplateDataModule, ZOGLAB.S_3MS.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 11:07:52,594 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 11:07:52,594 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 11:07:52,594 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.AbpZeroTemplateCoreModule, ZOGLAB.S_3MS.Core, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 11:07:52,594 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 11:07:52,595 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 11:07:52,595 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.AbpZeroTemplateApplicationModule, ZOGLAB.S_3MS.Application, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 11:07:52,595 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.WebApi.AbpZeroTemplateWebApiModule, ZOGLAB.S_3MS.WebApi, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 11:07:52,595 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 11:07:52,595 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 11:07:52,595 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 11:07:52,596 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 11:07:52,603 [1    ] Abp.Modules.AbpModuleManager             - 19 modules loaded.
+DEBUG 2018-12-06 11:07:52,875 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-06 11:07:52,875 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-06 11:07:52,875 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-06 11:07:52,875 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZeroTemplate (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-06 11:07:53,436 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZOGLAB.S_3MS.EntityFramework.AbpZeroTemplateDbContext, ZOGLAB.S_3MS.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 11:07:56,370 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-12-06 11:07:56,383 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-12-06 11:07:56,386 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-12-06 11:07:56,431 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-12-06 11:07:56,443 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZeroTemplate
+DEBUG 2018-12-06 11:07:56,626 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-12-06 11:07:59,679 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2018-12-06 11:07:59,920 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 35 classes define auto mapping attributes
+DEBUG 2018-12-06 11:07:59,920 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Friendships.Cache.FriendCacheItem
+DEBUG 2018-12-06 11:07:59,924 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-12-06 11:07:59,924 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-12-06 11:07:59,924 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Organizations.Dto.OrganizationUnitDto
+DEBUG 2018-12-06 11:07:59,924 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2018-12-06 11:07:59,925 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2018-12-06 11:07:59,925 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.MultiTenancy.Dto.TenantListDto
+DEBUG 2018-12-06 11:07:59,925 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.MultiTenancy.Dto.TenantEditDto
+DEBUG 2018-12-06 11:07:59,925 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2018-12-06 11:07:59,925 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2018-12-06 11:07:59,925 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Friendships.Dto.FriendDto
+DEBUG 2018-12-06 11:07:59,925 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Editions.Dto.EditionEditDto
+DEBUG 2018-12-06 11:07:59,925 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Editions.Dto.FlatFeatureDto
+DEBUG 2018-12-06 11:07:59,925 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Editions.Dto.EditionListDto
+DEBUG 2018-12-06 11:07:59,925 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Chat.Dto.ChatMessageDto
+DEBUG 2018-12-06 11:07:59,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Chat.Dto.ChatUserDto
+DEBUG 2018-12-06 11:07:59,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2018-12-06 11:07:59,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2018-12-06 11:07:59,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2018-12-06 11:07:59,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Dto.UserListDto
+DEBUG 2018-12-06 11:07:59,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Roles.Dto.RoleListDto
+DEBUG 2018-12-06 11:07:59,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2018-12-06 11:07:59,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2018-12-06 11:07:59,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2018-12-06 11:07:59,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Auditing.Dto.AuditLogListDto
+DEBUG 2018-12-06 11:07:59,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-12-06 11:07:59,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2018-12-06 11:07:59,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-12-06 11:07:59,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2018-12-06 11:07:59,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2018-12-06 11:07:59,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2018-12-06 11:07:59,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2018-12-06 11:07:59,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2018-12-06 11:07:59,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2018-12-06 11:07:59,927 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-12-06 11:08:00,760 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2018-12-06 11:08:00,980 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2018-12-06 11:08:00,996 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2018-12-06 11:08:00,999 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2018-12-06 11:08:01,002 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-12-06 11:08:01,004 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2018-12-06 11:08:01,006 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2018-12-06 11:08:01,007 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-12-06 11:08:01,009 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2018-12-06 11:08:01,012 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2018-12-06 11:08:01,014 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2018-12-06 11:08:01,016 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2018-12-06 11:08:01,017 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2018-12-06 11:08:01,019 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2018-12-06 11:08:01,020 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2018-12-06 11:08:01,021 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2018-12-06 11:08:01,023 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2018-12-06 11:08:01,024 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2018-12-06 11:08:01,025 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2018-12-06 11:08:01,026 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-12-06 11:08:01,028 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2018-12-06 11:08:01,030 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-12-06 11:08:01,031 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2018-12-06 11:08:01,033 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+WARN  2018-12-06 11:10:01,608 [15   ] .S_3MS.Web.Controllers.AccountController - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at ZOGLAB.S_3MS.Web.Controllers.AccountController.<GetLoginResultAsync>d__23.MoveNext() in C:\FH\ZOGLAB.S_3MS\src\ZOGLAB.S_3MS.Web\Controllers\AccountController.cs:line 214
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ZOGLAB.S_3MS.Web.Controllers.AccountController.<Login>d__20.MoveNext() in C:\FH\ZOGLAB.S_3MS\src\ZOGLAB.S_3MS.Web\Controllers\AccountController.cs:line 143
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2018-12-06 11:10:05,508 [16   ] .S_3MS.Web.Controllers.AccountController - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at ZOGLAB.S_3MS.Web.Controllers.AccountController.<GetLoginResultAsync>d__23.MoveNext() in C:\FH\ZOGLAB.S_3MS\src\ZOGLAB.S_3MS.Web\Controllers\AccountController.cs:line 214
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ZOGLAB.S_3MS.Web.Controllers.AccountController.<Login>d__20.MoveNext() in C:\FH\ZOGLAB.S_3MS\src\ZOGLAB.S_3MS.Web\Controllers\AccountController.cs:line 143
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2018-12-06 11:10:11,500 [15   ] .S_3MS.Web.Controllers.AccountController - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at ZOGLAB.S_3MS.Web.Controllers.AccountController.<GetLoginResultAsync>d__23.MoveNext() in C:\FH\ZOGLAB.S_3MS\src\ZOGLAB.S_3MS.Web\Controllers\AccountController.cs:line 214
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ZOGLAB.S_3MS.Web.Controllers.AccountController.<Login>d__20.MoveNext() in C:\FH\ZOGLAB.S_3MS\src\ZOGLAB.S_3MS.Web\Controllers\AccountController.cs:line 143
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2018-12-06 11:10:14,351 [15   ] .S_3MS.Web.Controllers.AccountController - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at ZOGLAB.S_3MS.Web.Controllers.AccountController.<GetLoginResultAsync>d__23.MoveNext() in C:\FH\ZOGLAB.S_3MS\src\ZOGLAB.S_3MS.Web\Controllers\AccountController.cs:line 214
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ZOGLAB.S_3MS.Web.Controllers.AccountController.<Login>d__20.MoveNext() in C:\FH\ZOGLAB.S_3MS\src\ZOGLAB.S_3MS.Web\Controllers\AccountController.cs:line 143
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2018-12-06 11:11:23,079 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"166e2863-4636-44f5-b59f-39c3a3b5489c","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-12-06T03:11:23.0736003Z","Properties":{}}
+DEBUG 2018-12-06 11:11:23,355 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 166e2863-4636-44f5-b59f-39c3a3b5489c
+DEBUG 2018-12-06 11:11:29,785 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 166e2863-4636-44f5-b59f-39c3a3b5489c
+DEBUG 2018-12-06 11:11:34,215 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"15299b84-0619-403d-83f3-635f897a55c0","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-12-06T03:11:34.2128948Z","Properties":{}}
+DEBUG 2018-12-06 11:11:34,305 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 15299b84-0619-403d-83f3-635f897a55c0
+DEBUG 2018-12-06 11:14:25,259 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 15299b84-0619-403d-83f3-635f897a55c0
