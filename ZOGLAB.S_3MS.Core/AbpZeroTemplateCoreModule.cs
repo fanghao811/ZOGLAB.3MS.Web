@@ -32,7 +32,7 @@ namespace ZOGLAB.S_3MS
     {
         public override void PreInitialize()
         {
-            Configuration.Auditing.IsEnabledForAnonymousUsers = true;
+            Configuration.Auditing.IsEnabledForAnonymousUsers = false;
 
             //Declare entity types
             Configuration.Modules.Zero().EntityTypes.Tenant = typeof (Tenant);
@@ -60,7 +60,9 @@ namespace ZOGLAB.S_3MS
             Configuration.Notifications.Providers.Add<AppNotificationProvider>();
 
             //Enable this line to create a multi-tenant application.
-            Configuration.MultiTenancy.IsEnabled = AbpZeroTemplateConsts.MultiTenancyEnabled;
+            //Configuration.MultiTenancy.IsEnabled = AbpZeroTemplateConsts.MultiTenancyEnabled;
+            //FINISHED:2018/12/6 禁止多租户功能
+            Configuration.MultiTenancy.IsEnabled = false;
 
             //Enable LDAP authentication (It can be enabled only if MultiTenancy is disabled!)
             //Configuration.Modules.ZeroLdap().Enable(typeof(AppLdapAuthenticationSource));

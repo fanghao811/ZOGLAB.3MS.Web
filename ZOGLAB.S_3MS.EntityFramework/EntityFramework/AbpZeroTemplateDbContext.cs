@@ -7,6 +7,7 @@ using ZOGLAB.S_3MS.Chat;
 using ZOGLAB.S_3MS.Friendships;
 using ZOGLAB.S_3MS.MultiTenancy;
 using ZOGLAB.S_3MS.Storage;
+using ZOGLAB.S_3MS.SD;
 
 namespace ZOGLAB.S_3MS.EntityFramework
 {
@@ -27,6 +28,11 @@ namespace ZOGLAB.S_3MS.EntityFramework
         public virtual IDbSet<Friendship> Friendships { get; set; }
 
         public virtual IDbSet<ChatMessage> ChatMessages { get; set; }
+
+        /* 新增三个系统实体 2018/12/06  */
+        public virtual IDbSet<SdReport> SdReports { get; set; }
+        public virtual IDbSet<SdSystem> SdSystem { get; set; }
+        public virtual IDbSet<SdUtil> SdUtil { get; set; }
 
         public AbpZeroTemplateDbContext()
             : base("Default")
@@ -51,5 +57,7 @@ namespace ZOGLAB.S_3MS.EntityFramework
         {
 
         }
+
+        //protected override void OnModelCreating(DbModelBuilder modelBuilder);
     }
 }

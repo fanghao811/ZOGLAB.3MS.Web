@@ -4,7 +4,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace ZOGLAB.S_3MS.SdUtil
+namespace ZOGLAB.S_3MS.SD
 {
     /// <summary>
     /// 共用信息配置表(SD_Utils)

@@ -1,10 +1,13 @@
 ﻿using Abp.Domain.Entities;
 using Abp.Domain.Entities.Auditing;
+using Abp.Timing;
 using System;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using ZOGLAB.S_3MS.Authorization.Roles;
 
-namespace ZOGLAB.S_3MS.SdReport
+namespace ZOGLAB.S_3MS.SD
 {
     /// <summary>
     /// 共用信息配置表(SD_Utils)
@@ -35,8 +38,11 @@ namespace ZOGLAB.S_3MS.SdReport
         [MaxLength(MaxLength_50)]
         public int ReportParams { get; set; }
 
-        //6.角色id
-        public int Role_ID { get; set; }
+        /// <summary>
+        /// 6.角色id -->Role
+        /// </summary>
+        public long? RoleId { get; set; }
+        public string RoleName { get; set; }
 
         //7.是否开启
         [MaxLength(MaxLength_50)]
@@ -52,12 +58,39 @@ namespace ZOGLAB.S_3MS.SdReport
 
         //10.录入日期
         public DateTime CreationTime { get; set; }
-
+     
         //构造函数
-        public SdReport()
+        public SdReport(
+            string code,
+            string name,           
+            ReportType type,
+            string reportPath,
+            int reportParams,
+            Role role,
+            bool isActive,        
+            string description,
+            string memo)
         {
-            CreationTime = DateTime.Now;
+            if (!Enum.IsDefined(typeof(ReportType), type))
+            {
+                throw new InvalidEnumArgumentException(nameof(type), (int)type, typeof(ReportType));
+            }
+            Code = code;
+            Name = name;
+            ReportType = type;
+            ReportPath = reportPath;
+            ReportParams = reportParams;
+            RoleId = role.Id;
+            RoleName = role.Name;
+            IsActive = isActive;
+
+            CreationTime = Clock.Now;
         }
+        protected SdReport()
+        {
+
+        }
+
     }
     public enum ReportType : byte
     {
