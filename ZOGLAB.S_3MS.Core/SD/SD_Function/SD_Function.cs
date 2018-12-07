@@ -33,7 +33,7 @@ namespace ZOGLAB.S_3MS.SD
 
         //5.Web页面URL
         [MaxLength(MaxLength_100)]
-        public int PageUrl { get; set; }
+        public string PageUrl { get; set; }
 
         //6.菜单项图标文件路径
         [MaxLength(MaxLength_100)]

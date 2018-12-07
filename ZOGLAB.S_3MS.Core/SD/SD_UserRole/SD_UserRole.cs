@@ -13,10 +13,12 @@ namespace ZOGLAB.S_3MS.SD
     {
         //1.角色
         public long Role_ID { get; set; }
+        [ForeignKey("Role_ID")]
         public SD_Role SD_Role { get; set; }
 
         //2.功能
-        public long SD_UserID { get; set; }
+        public long User_ID { get; set; }
+        [ForeignKey("User_ID")]
         public SD_User SD_User { get; set; }
 
         //3.录入日期

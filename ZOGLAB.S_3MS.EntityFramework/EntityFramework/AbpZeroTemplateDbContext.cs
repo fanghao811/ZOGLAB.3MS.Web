@@ -31,11 +31,20 @@ namespace ZOGLAB.S_3MS.EntityFramework
 
         /* 新增三个系统实体 2018/12/06  */
         public virtual IDbSet<SD_Organization> SD_Organizations { get; set; }
-        public virtual IDbSet<SD_Report> SD_Reports { get; set; }
-        public virtual IDbSet<SD_System> SD_System { get; set; }
-        public virtual IDbSet<SD_Util> SD_Utils { get; set; }
-        public virtual IDbSet<SD_Role> SD_Roles { get; set; }
         public virtual IDbSet<SD_User> SD_Users { get; set; }
+        public virtual IDbSet<SD_Role> SD_Roles { get; set; }
+        public virtual IDbSet<SD_Function> SD_Functions { get; set; }
+        public virtual IDbSet<SD_RoleFunction> SD_RoleFunction { get; set; }
+        //Added nine entities 2018/12/07
+        public virtual IDbSet<SD_UserRole> SD_UserRole { get; set; }
+        public virtual IDbSet<SD_Parameter> SD_Parameters { get; set; }
+        public virtual IDbSet<SD_UserLog> SD_UserLogs { get; set; }
+        public virtual IDbSet<SD_UIModel> SD_UIModels { get; set; }
+        public virtual IDbSet<SD_Report> SD_Reports { get; set; }
+
+        public virtual IDbSet<SD_Util> SD_Util { get; set; }
+        public virtual IDbSet<SD_System> SD_System { get; set; }
+
 
 
         public AbpZeroTemplateDbContext()

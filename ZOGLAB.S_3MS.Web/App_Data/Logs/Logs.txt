@@ -222,3 +222,1103 @@ DEBUG 2018-12-06 11:11:29,785 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        -
 DEBUG 2018-12-06 11:11:34,215 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"15299b84-0619-403d-83f3-635f897a55c0","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-12-06T03:11:34.2128948Z","Properties":{}}
 DEBUG 2018-12-06 11:11:34,305 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 15299b84-0619-403d-83f3-635f897a55c0
 DEBUG 2018-12-06 11:14:25,259 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 15299b84-0619-403d-83f3-635f897a55c0
+DEBUG 2018-12-07 13:03:52,597 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-12-07 13:03:52,622 [1    ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+DEBUG 2018-12-07 13:03:52,628 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.Web.AbpZeroTemplateWebModule, ZOGLAB.S_3MS.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:03:52,630 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:03:52,630 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:03:52,630 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:03:52,630 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:03:52,630 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:03:52,630 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:03:52,630 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.AbpZeroTemplateDataModule, ZOGLAB.S_3MS.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:03:52,631 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:03:52,631 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:03:52,631 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.AbpZeroTemplateCoreModule, ZOGLAB.S_3MS.Core, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:03:52,631 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:03:52,632 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:03:52,632 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.AbpZeroTemplateApplicationModule, ZOGLAB.S_3MS.Application, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:03:52,632 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.WebApi.AbpZeroTemplateWebApiModule, ZOGLAB.S_3MS.WebApi, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:03:52,632 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:03:52,632 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:03:52,632 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:03:52,632 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:03:52,636 [1    ] Abp.Modules.AbpModuleManager             - 19 modules loaded.
+DEBUG 2018-12-07 13:03:52,901 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 13:03:52,901 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 13:03:52,901 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 13:03:52,901 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZeroTemplate (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 13:03:53,519 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZOGLAB.S_3MS.EntityFramework.AbpZeroTemplateDbContext, ZOGLAB.S_3MS.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:03:56,274 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-12-07 13:03:56,284 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-12-07 13:03:56,285 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-12-07 13:03:56,329 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-12-07 13:03:56,347 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZeroTemplate
+DEBUG 2018-12-07 13:03:56,566 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-12-07 13:03:58,778 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2018-12-07 13:03:59,047 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 35 classes define auto mapping attributes
+DEBUG 2018-12-07 13:03:59,047 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Friendships.Cache.FriendCacheItem
+DEBUG 2018-12-07 13:03:59,051 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-12-07 13:03:59,051 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-12-07 13:03:59,051 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Organizations.Dto.OrganizationUnitDto
+DEBUG 2018-12-07 13:03:59,051 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2018-12-07 13:03:59,051 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2018-12-07 13:03:59,051 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.MultiTenancy.Dto.TenantListDto
+DEBUG 2018-12-07 13:03:59,051 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.MultiTenancy.Dto.TenantEditDto
+DEBUG 2018-12-07 13:03:59,052 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2018-12-07 13:03:59,052 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2018-12-07 13:03:59,052 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Friendships.Dto.FriendDto
+DEBUG 2018-12-07 13:03:59,052 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Editions.Dto.EditionEditDto
+DEBUG 2018-12-07 13:03:59,052 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Editions.Dto.FlatFeatureDto
+DEBUG 2018-12-07 13:03:59,052 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Editions.Dto.EditionListDto
+DEBUG 2018-12-07 13:03:59,052 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Chat.Dto.ChatMessageDto
+DEBUG 2018-12-07 13:03:59,052 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Chat.Dto.ChatUserDto
+DEBUG 2018-12-07 13:03:59,052 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2018-12-07 13:03:59,052 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2018-12-07 13:03:59,052 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2018-12-07 13:03:59,052 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Dto.UserListDto
+DEBUG 2018-12-07 13:03:59,052 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Roles.Dto.RoleListDto
+DEBUG 2018-12-07 13:03:59,052 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2018-12-07 13:03:59,053 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2018-12-07 13:03:59,053 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2018-12-07 13:03:59,053 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Auditing.Dto.AuditLogListDto
+DEBUG 2018-12-07 13:03:59,053 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-12-07 13:03:59,053 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2018-12-07 13:03:59,053 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-12-07 13:03:59,053 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2018-12-07 13:03:59,053 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2018-12-07 13:03:59,053 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2018-12-07 13:03:59,053 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2018-12-07 13:03:59,053 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2018-12-07 13:03:59,053 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2018-12-07 13:03:59,053 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-12-07 13:03:59,718 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2018-12-07 13:03:59,756 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2018-12-07 13:03:59,776 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2018-12-07 13:03:59,778 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2018-12-07 13:03:59,779 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-12-07 13:03:59,781 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2018-12-07 13:03:59,782 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2018-12-07 13:03:59,783 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-12-07 13:03:59,785 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2018-12-07 13:03:59,786 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2018-12-07 13:03:59,787 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2018-12-07 13:03:59,788 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2018-12-07 13:03:59,790 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2018-12-07 13:03:59,793 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2018-12-07 13:03:59,795 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2018-12-07 13:03:59,796 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2018-12-07 13:03:59,798 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2018-12-07 13:03:59,799 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2018-12-07 13:03:59,800 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2018-12-07 13:03:59,801 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-12-07 13:03:59,803 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2018-12-07 13:03:59,804 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-12-07 13:03:59,805 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2018-12-07 13:03:59,806 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+WARN  2018-12-07 13:04:22,426 [12   ] .S_3MS.Web.Controllers.AccountController - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at ZOGLAB.S_3MS.Web.Controllers.AccountController.<GetLoginResultAsync>d__23.MoveNext() in C:\FH\Source\ZOGLAB.3MS.Web\src\ZOGLAB.S_3MS.Web\Controllers\AccountController.cs:line 214
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ZOGLAB.S_3MS.Web.Controllers.AccountController.<Login>d__20.MoveNext() in C:\FH\Source\ZOGLAB.3MS.Web\src\ZOGLAB.S_3MS.Web\Controllers\AccountController.cs:line 143
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2018-12-07 13:04:27,537 [6    ] .S_3MS.Web.Controllers.AccountController - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at ZOGLAB.S_3MS.Web.Controllers.AccountController.<GetLoginResultAsync>d__23.MoveNext() in C:\FH\Source\ZOGLAB.3MS.Web\src\ZOGLAB.S_3MS.Web\Controllers\AccountController.cs:line 214
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ZOGLAB.S_3MS.Web.Controllers.AccountController.<Login>d__20.MoveNext() in C:\FH\Source\ZOGLAB.3MS.Web\src\ZOGLAB.S_3MS.Web\Controllers\AccountController.cs:line 143
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2018-12-07 13:05:05,392 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"7fd64c96-0ae3-4379-b854-f56503d83809","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-12-07T05:05:05.3828322Z","Properties":{}}
+DEBUG 2018-12-07 13:05:05,848 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 7fd64c96-0ae3-4379-b854-f56503d83809
+DEBUG 2018-12-07 13:10:37,106 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 7fd64c96-0ae3-4379-b854-f56503d83809
+DEBUG 2018-12-07 13:10:42,826 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"61761bb3-fccd-431b-9c00-c6d936b4b72a","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-12-07T05:10:42.8251218Z","Properties":{}}
+DEBUG 2018-12-07 13:10:43,034 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 61761bb3-fccd-431b-9c00-c6d936b4b72a
+WARN  2018-12-07 13:11:43,248 [21   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2018-12-07 13:17:54,892 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 61761bb3-fccd-431b-9c00-c6d936b4b72a
+DEBUG 2018-12-07 13:18:00,166 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"187d56fa-4495-4607-ba66-fbbf8d150fe2","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-12-07T05:18:00.1558363Z","Properties":{}}
+DEBUG 2018-12-07 13:18:00,330 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 187d56fa-4495-4607-ba66-fbbf8d150fe2
+DEBUG 2018-12-07 13:18:59,056 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 187d56fa-4495-4607-ba66-fbbf8d150fe2
+DEBUG 2018-12-07 13:19:11,859 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-12-07 13:19:12,382 [1    ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+DEBUG 2018-12-07 13:19:12,387 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.Web.AbpZeroTemplateWebModule, ZOGLAB.S_3MS.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:19:12,389 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:19:12,390 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:19:12,391 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:19:12,392 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:19:12,392 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:19:12,392 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:19:12,393 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.AbpZeroTemplateDataModule, ZOGLAB.S_3MS.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:19:12,393 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:19:12,393 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:19:12,393 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.AbpZeroTemplateCoreModule, ZOGLAB.S_3MS.Core, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:19:12,394 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:19:12,394 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:19:12,394 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.AbpZeroTemplateApplicationModule, ZOGLAB.S_3MS.Application, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:19:12,394 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.WebApi.AbpZeroTemplateWebApiModule, ZOGLAB.S_3MS.WebApi, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:19:12,394 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:19:12,395 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:19:12,395 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:19:12,395 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:19:12,398 [1    ] Abp.Modules.AbpModuleManager             - 19 modules loaded.
+DEBUG 2018-12-07 13:19:13,072 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 13:19:13,072 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 13:19:13,072 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 13:19:13,072 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZeroTemplate (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 13:19:13,780 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZOGLAB.S_3MS.EntityFramework.AbpZeroTemplateDbContext, ZOGLAB.S_3MS.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:19:15,164 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-12-07 13:19:15,173 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-12-07 13:19:15,175 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-12-07 13:19:15,194 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-12-07 13:19:15,228 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZeroTemplate
+DEBUG 2018-12-07 13:19:15,390 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-12-07 13:19:18,104 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2018-12-07 13:19:18,536 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 35 classes define auto mapping attributes
+DEBUG 2018-12-07 13:19:18,536 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Friendships.Cache.FriendCacheItem
+DEBUG 2018-12-07 13:19:18,540 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-12-07 13:19:18,542 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-12-07 13:19:18,542 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Organizations.Dto.OrganizationUnitDto
+DEBUG 2018-12-07 13:19:18,542 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2018-12-07 13:19:18,543 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2018-12-07 13:19:18,543 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.MultiTenancy.Dto.TenantListDto
+DEBUG 2018-12-07 13:19:18,543 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.MultiTenancy.Dto.TenantEditDto
+DEBUG 2018-12-07 13:19:18,543 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2018-12-07 13:19:18,544 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2018-12-07 13:19:18,544 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Friendships.Dto.FriendDto
+DEBUG 2018-12-07 13:19:18,544 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Editions.Dto.EditionEditDto
+DEBUG 2018-12-07 13:19:18,544 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Editions.Dto.FlatFeatureDto
+DEBUG 2018-12-07 13:19:18,544 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Editions.Dto.EditionListDto
+DEBUG 2018-12-07 13:19:18,544 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Chat.Dto.ChatMessageDto
+DEBUG 2018-12-07 13:19:18,544 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Chat.Dto.ChatUserDto
+DEBUG 2018-12-07 13:19:18,544 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2018-12-07 13:19:18,544 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2018-12-07 13:19:18,544 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2018-12-07 13:19:18,544 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Dto.UserListDto
+DEBUG 2018-12-07 13:19:18,544 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Roles.Dto.RoleListDto
+DEBUG 2018-12-07 13:19:18,544 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2018-12-07 13:19:18,544 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2018-12-07 13:19:18,544 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2018-12-07 13:19:18,544 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Auditing.Dto.AuditLogListDto
+DEBUG 2018-12-07 13:19:18,544 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-12-07 13:19:18,544 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2018-12-07 13:19:18,545 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-12-07 13:19:18,545 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2018-12-07 13:19:18,545 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2018-12-07 13:19:18,545 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2018-12-07 13:19:18,545 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2018-12-07 13:19:18,545 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2018-12-07 13:19:18,545 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2018-12-07 13:19:18,545 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-12-07 13:19:19,472 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2018-12-07 13:19:19,511 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2018-12-07 13:19:19,521 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2018-12-07 13:19:19,523 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2018-12-07 13:19:19,524 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-12-07 13:19:19,525 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2018-12-07 13:19:19,527 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2018-12-07 13:19:19,531 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-12-07 13:19:19,533 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2018-12-07 13:19:19,534 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2018-12-07 13:19:19,537 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2018-12-07 13:19:19,539 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2018-12-07 13:19:19,541 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2018-12-07 13:19:19,542 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2018-12-07 13:19:19,543 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2018-12-07 13:19:19,544 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2018-12-07 13:19:19,546 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2018-12-07 13:19:19,547 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2018-12-07 13:19:19,549 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2018-12-07 13:19:19,550 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-12-07 13:19:19,551 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2018-12-07 13:19:19,552 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-12-07 13:19:19,554 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2018-12-07 13:19:19,555 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+WARN  2018-12-07 13:19:52,307 [8    ] .S_3MS.Web.Controllers.AccountController - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at ZOGLAB.S_3MS.Web.Controllers.AccountController.<GetLoginResultAsync>d__23.MoveNext() in C:\FH\Source\ZOGLAB.3MS.Web\src\ZOGLAB.S_3MS.Web\Controllers\AccountController.cs:line 214
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ZOGLAB.S_3MS.Web.Controllers.AccountController.<Login>d__20.MoveNext() in C:\FH\Source\ZOGLAB.3MS.Web\src\ZOGLAB.S_3MS.Web\Controllers\AccountController.cs:line 143
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2018-12-07 13:19:55,710 [12   ] .S_3MS.Web.Controllers.AccountController - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at ZOGLAB.S_3MS.Web.Controllers.AccountController.<GetLoginResultAsync>d__23.MoveNext() in C:\FH\Source\ZOGLAB.3MS.Web\src\ZOGLAB.S_3MS.Web\Controllers\AccountController.cs:line 214
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ZOGLAB.S_3MS.Web.Controllers.AccountController.<Login>d__20.MoveNext() in C:\FH\Source\ZOGLAB.3MS.Web\src\ZOGLAB.S_3MS.Web\Controllers\AccountController.cs:line 143
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2018-12-07 13:20:17,089 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f44c1c7f-c78e-4ac4-890c-371cc5b56aff","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-12-07T05:20:17.0810399Z","Properties":{}}
+DEBUG 2018-12-07 13:20:17,245 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f44c1c7f-c78e-4ac4-890c-371cc5b56aff
+DEBUG 2018-12-07 13:29:51,624 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f44c1c7f-c78e-4ac4-890c-371cc5b56aff
+DEBUG 2018-12-07 13:32:15,072 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-12-07 13:32:15,106 [1    ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+DEBUG 2018-12-07 13:32:15,112 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.Web.AbpZeroTemplateWebModule, ZOGLAB.S_3MS.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:32:15,116 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:32:15,116 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:32:15,116 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:32:15,116 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:32:15,117 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:32:15,117 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:32:15,117 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.AbpZeroTemplateDataModule, ZOGLAB.S_3MS.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:32:15,117 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:32:15,118 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:32:15,118 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.AbpZeroTemplateCoreModule, ZOGLAB.S_3MS.Core, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:32:15,118 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:32:15,119 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:32:15,120 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.AbpZeroTemplateApplicationModule, ZOGLAB.S_3MS.Application, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:32:15,121 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.WebApi.AbpZeroTemplateWebApiModule, ZOGLAB.S_3MS.WebApi, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:32:15,121 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:32:15,121 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:32:15,121 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:32:15,122 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:32:15,127 [1    ] Abp.Modules.AbpModuleManager             - 19 modules loaded.
+DEBUG 2018-12-07 13:32:15,451 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 13:32:15,451 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 13:32:15,451 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 13:32:15,451 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZeroTemplate (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 13:32:16,052 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZOGLAB.S_3MS.EntityFramework.AbpZeroTemplateDbContext, ZOGLAB.S_3MS.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:32:18,933 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-12-07 13:32:18,943 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-12-07 13:32:18,944 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-12-07 13:32:18,966 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-12-07 13:32:18,981 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZeroTemplate
+DEBUG 2018-12-07 13:32:19,286 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-12-07 13:32:21,977 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2018-12-07 13:32:22,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 35 classes define auto mapping attributes
+DEBUG 2018-12-07 13:32:22,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Friendships.Cache.FriendCacheItem
+DEBUG 2018-12-07 13:32:22,253 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-12-07 13:32:22,253 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-12-07 13:32:22,253 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Organizations.Dto.OrganizationUnitDto
+DEBUG 2018-12-07 13:32:22,253 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2018-12-07 13:32:22,253 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2018-12-07 13:32:22,253 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.MultiTenancy.Dto.TenantListDto
+DEBUG 2018-12-07 13:32:22,253 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.MultiTenancy.Dto.TenantEditDto
+DEBUG 2018-12-07 13:32:22,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2018-12-07 13:32:22,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2018-12-07 13:32:22,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Friendships.Dto.FriendDto
+DEBUG 2018-12-07 13:32:22,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Editions.Dto.EditionEditDto
+DEBUG 2018-12-07 13:32:22,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Editions.Dto.FlatFeatureDto
+DEBUG 2018-12-07 13:32:22,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Editions.Dto.EditionListDto
+DEBUG 2018-12-07 13:32:22,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Chat.Dto.ChatMessageDto
+DEBUG 2018-12-07 13:32:22,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Chat.Dto.ChatUserDto
+DEBUG 2018-12-07 13:32:22,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2018-12-07 13:32:22,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2018-12-07 13:32:22,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2018-12-07 13:32:22,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Dto.UserListDto
+DEBUG 2018-12-07 13:32:22,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Roles.Dto.RoleListDto
+DEBUG 2018-12-07 13:32:22,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2018-12-07 13:32:22,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2018-12-07 13:32:22,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2018-12-07 13:32:22,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Auditing.Dto.AuditLogListDto
+DEBUG 2018-12-07 13:32:22,255 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-12-07 13:32:22,255 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2018-12-07 13:32:22,255 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-12-07 13:32:22,255 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2018-12-07 13:32:22,255 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2018-12-07 13:32:22,255 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2018-12-07 13:32:22,255 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2018-12-07 13:32:22,255 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2018-12-07 13:32:22,255 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2018-12-07 13:32:22,255 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-12-07 13:32:22,920 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2018-12-07 13:32:22,955 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2018-12-07 13:32:22,968 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2018-12-07 13:32:22,969 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2018-12-07 13:32:22,970 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-12-07 13:32:22,972 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2018-12-07 13:32:22,974 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2018-12-07 13:32:22,975 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-12-07 13:32:22,976 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2018-12-07 13:32:22,978 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2018-12-07 13:32:22,980 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2018-12-07 13:32:22,981 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2018-12-07 13:32:22,983 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2018-12-07 13:32:22,984 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2018-12-07 13:32:22,985 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2018-12-07 13:32:22,987 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2018-12-07 13:32:22,989 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2018-12-07 13:32:22,991 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2018-12-07 13:32:22,993 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2018-12-07 13:32:22,996 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-12-07 13:32:22,997 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2018-12-07 13:32:22,998 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-12-07 13:32:23,000 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2018-12-07 13:32:23,001 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2018-12-07 13:40:05,133 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-12-07 13:40:05,932 [1    ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+DEBUG 2018-12-07 13:40:05,941 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.Web.AbpZeroTemplateWebModule, ZOGLAB.S_3MS.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:40:05,943 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:40:05,943 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:40:05,943 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:40:05,943 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:40:05,944 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:40:05,944 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:40:05,944 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.AbpZeroTemplateDataModule, ZOGLAB.S_3MS.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:40:05,944 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:40:05,945 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:40:05,945 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.AbpZeroTemplateCoreModule, ZOGLAB.S_3MS.Core, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:40:05,945 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:40:05,945 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:40:05,945 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.AbpZeroTemplateApplicationModule, ZOGLAB.S_3MS.Application, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:40:05,946 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.WebApi.AbpZeroTemplateWebApiModule, ZOGLAB.S_3MS.WebApi, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:40:05,946 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:40:05,946 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:40:05,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:40:05,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:40:05,950 [1    ] Abp.Modules.AbpModuleManager             - 19 modules loaded.
+DEBUG 2018-12-07 13:40:06,988 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 13:40:06,988 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 13:40:06,988 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 13:40:06,988 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZeroTemplate (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 13:40:07,877 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZOGLAB.S_3MS.EntityFramework.AbpZeroTemplateDbContext, ZOGLAB.S_3MS.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:40:10,388 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-12-07 13:40:10,402 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-12-07 13:40:10,421 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-12-07 13:40:10,443 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-12-07 13:40:10,455 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZeroTemplate
+DEBUG 2018-12-07 13:40:10,775 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-12-07 13:40:13,363 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2018-12-07 13:40:13,660 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 35 classes define auto mapping attributes
+DEBUG 2018-12-07 13:40:13,660 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Friendships.Cache.FriendCacheItem
+DEBUG 2018-12-07 13:40:13,663 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-12-07 13:40:13,664 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-12-07 13:40:13,664 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Organizations.Dto.OrganizationUnitDto
+DEBUG 2018-12-07 13:40:13,664 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2018-12-07 13:40:13,664 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2018-12-07 13:40:13,664 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.MultiTenancy.Dto.TenantListDto
+DEBUG 2018-12-07 13:40:13,664 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.MultiTenancy.Dto.TenantEditDto
+DEBUG 2018-12-07 13:40:13,664 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2018-12-07 13:40:13,664 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2018-12-07 13:40:13,664 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Friendships.Dto.FriendDto
+DEBUG 2018-12-07 13:40:13,664 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Editions.Dto.EditionEditDto
+DEBUG 2018-12-07 13:40:13,665 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Editions.Dto.FlatFeatureDto
+DEBUG 2018-12-07 13:40:13,665 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Editions.Dto.EditionListDto
+DEBUG 2018-12-07 13:40:13,665 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Chat.Dto.ChatMessageDto
+DEBUG 2018-12-07 13:40:13,665 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Chat.Dto.ChatUserDto
+DEBUG 2018-12-07 13:40:13,665 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2018-12-07 13:40:13,665 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2018-12-07 13:40:13,665 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2018-12-07 13:40:13,665 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Dto.UserListDto
+DEBUG 2018-12-07 13:40:13,665 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Roles.Dto.RoleListDto
+DEBUG 2018-12-07 13:40:13,665 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2018-12-07 13:40:13,665 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2018-12-07 13:40:13,665 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2018-12-07 13:40:13,665 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Auditing.Dto.AuditLogListDto
+DEBUG 2018-12-07 13:40:13,665 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-12-07 13:40:13,665 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2018-12-07 13:40:13,665 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-12-07 13:40:13,665 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2018-12-07 13:40:13,665 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2018-12-07 13:40:13,665 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2018-12-07 13:40:13,666 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2018-12-07 13:40:13,666 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2018-12-07 13:40:13,666 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2018-12-07 13:40:13,666 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-12-07 13:40:14,475 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2018-12-07 13:40:14,601 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2018-12-07 13:40:14,617 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2018-12-07 13:40:14,619 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2018-12-07 13:40:14,620 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-12-07 13:40:14,622 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2018-12-07 13:40:14,626 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2018-12-07 13:40:14,627 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-12-07 13:40:14,629 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2018-12-07 13:40:14,630 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2018-12-07 13:40:14,633 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2018-12-07 13:40:14,634 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2018-12-07 13:40:14,636 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2018-12-07 13:40:14,638 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2018-12-07 13:40:14,641 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2018-12-07 13:40:14,644 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2018-12-07 13:40:14,645 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2018-12-07 13:40:14,647 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2018-12-07 13:40:14,649 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2018-12-07 13:40:14,650 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-12-07 13:40:14,653 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2018-12-07 13:40:14,654 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-12-07 13:40:14,657 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2018-12-07 13:40:14,659 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+WARN  2018-12-07 13:40:35,882 [6    ] .S_3MS.Web.Controllers.AccountController - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at ZOGLAB.S_3MS.Web.Controllers.AccountController.<GetLoginResultAsync>d__23.MoveNext() in C:\FH\Source\ZOGLAB.3MS.Web\src\ZOGLAB.S_3MS.Web\Controllers\AccountController.cs:line 214
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ZOGLAB.S_3MS.Web.Controllers.AccountController.<Login>d__20.MoveNext() in C:\FH\Source\ZOGLAB.3MS.Web\src\ZOGLAB.S_3MS.Web\Controllers\AccountController.cs:line 143
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2018-12-07 13:40:58,661 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9cb66ba7-8c54-410f-814f-2fa3e66801ad","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-12-07T05:40:58.6488889Z","Properties":{}}
+DEBUG 2018-12-07 13:40:58,994 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9cb66ba7-8c54-410f-814f-2fa3e66801ad
+DEBUG 2018-12-07 13:48:27,709 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9cb66ba7-8c54-410f-814f-2fa3e66801ad
+DEBUG 2018-12-07 13:48:35,435 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2f1271c7-c7d2-4641-8f32-37c03829c295","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-12-07T05:48:35.4331347Z","Properties":{}}
+DEBUG 2018-12-07 13:48:35,603 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2f1271c7-c7d2-4641-8f32-37c03829c295
+WARN  2018-12-07 13:49:22,391 [25   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2018-12-07 13:49:35,940 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8220e8cd-35a4-4431-91fd-1987ed3dcabe","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-12-07T05:49:35.9384939Z","Properties":{}}
+DEBUG 2018-12-07 13:49:36,082 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8220e8cd-35a4-4431-91fd-1987ed3dcabe
+DEBUG 2018-12-07 13:49:53,873 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 2f1271c7-c7d2-4641-8f32-37c03829c295
+WARN  2018-12-07 13:50:43,759 [19   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+WARN  2018-12-07 13:52:22,682 [28   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2018-12-07 13:53:10,980 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"80a98d18-9d7a-4bb5-943c-bf14b8d165d4","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-12-07T05:53:10.979238Z","Properties":{}}
+DEBUG 2018-12-07 13:53:11,185 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 80a98d18-9d7a-4bb5-943c-bf14b8d165d4
+DEBUG 2018-12-07 13:59:54,260 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-12-07 13:59:55,169 [1    ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+DEBUG 2018-12-07 13:59:55,181 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.Web.AbpZeroTemplateWebModule, ZOGLAB.S_3MS.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:59:55,183 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:59:55,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:59:55,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:59:55,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:59:55,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:59:55,189 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:59:55,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.AbpZeroTemplateDataModule, ZOGLAB.S_3MS.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:59:55,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:59:55,191 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:59:55,191 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.AbpZeroTemplateCoreModule, ZOGLAB.S_3MS.Core, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:59:55,191 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:59:55,192 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:59:55,192 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.AbpZeroTemplateApplicationModule, ZOGLAB.S_3MS.Application, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:59:55,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.WebApi.AbpZeroTemplateWebApiModule, ZOGLAB.S_3MS.WebApi, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:59:55,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:59:55,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:59:55,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:59:55,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:59:55,200 [1    ] Abp.Modules.AbpModuleManager             - 19 modules loaded.
+DEBUG 2018-12-07 13:59:56,264 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 13:59:56,264 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 13:59:56,264 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 13:59:56,264 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZeroTemplate (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 13:59:57,357 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZOGLAB.S_3MS.EntityFramework.AbpZeroTemplateDbContext, ZOGLAB.S_3MS.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 13:59:59,845 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-12-07 13:59:59,881 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-12-07 13:59:59,884 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-12-07 13:59:59,990 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-12-07 14:00:00,026 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZeroTemplate
+DEBUG 2018-12-07 14:00:00,430 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-12-07 14:00:04,054 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2018-12-07 14:00:04,527 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 35 classes define auto mapping attributes
+DEBUG 2018-12-07 14:00:04,527 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Friendships.Cache.FriendCacheItem
+DEBUG 2018-12-07 14:00:04,531 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-12-07 14:00:04,531 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-12-07 14:00:04,531 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Organizations.Dto.OrganizationUnitDto
+DEBUG 2018-12-07 14:00:04,531 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2018-12-07 14:00:04,531 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2018-12-07 14:00:04,531 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.MultiTenancy.Dto.TenantListDto
+DEBUG 2018-12-07 14:00:04,531 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.MultiTenancy.Dto.TenantEditDto
+DEBUG 2018-12-07 14:00:04,532 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2018-12-07 14:00:04,532 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2018-12-07 14:00:04,532 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Friendships.Dto.FriendDto
+DEBUG 2018-12-07 14:00:04,532 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Editions.Dto.EditionEditDto
+DEBUG 2018-12-07 14:00:04,532 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Editions.Dto.FlatFeatureDto
+DEBUG 2018-12-07 14:00:04,532 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Editions.Dto.EditionListDto
+DEBUG 2018-12-07 14:00:04,532 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Chat.Dto.ChatMessageDto
+DEBUG 2018-12-07 14:00:04,532 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Chat.Dto.ChatUserDto
+DEBUG 2018-12-07 14:00:04,532 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2018-12-07 14:00:04,532 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2018-12-07 14:00:04,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2018-12-07 14:00:04,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Dto.UserListDto
+DEBUG 2018-12-07 14:00:04,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Roles.Dto.RoleListDto
+DEBUG 2018-12-07 14:00:04,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2018-12-07 14:00:04,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2018-12-07 14:00:04,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2018-12-07 14:00:04,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Auditing.Dto.AuditLogListDto
+DEBUG 2018-12-07 14:00:04,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-12-07 14:00:04,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2018-12-07 14:00:04,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-12-07 14:00:04,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2018-12-07 14:00:04,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2018-12-07 14:00:04,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2018-12-07 14:00:04,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2018-12-07 14:00:04,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2018-12-07 14:00:04,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2018-12-07 14:00:04,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-12-07 14:00:05,444 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2018-12-07 14:00:05,507 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2018-12-07 14:00:05,545 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2018-12-07 14:00:05,555 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2018-12-07 14:00:05,557 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-12-07 14:00:05,559 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2018-12-07 14:00:05,560 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2018-12-07 14:00:05,561 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-12-07 14:00:05,563 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2018-12-07 14:00:05,564 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2018-12-07 14:00:05,566 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2018-12-07 14:00:05,567 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2018-12-07 14:00:05,568 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2018-12-07 14:00:05,570 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2018-12-07 14:00:05,572 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2018-12-07 14:00:05,574 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2018-12-07 14:00:05,575 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2018-12-07 14:00:05,577 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2018-12-07 14:00:05,578 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2018-12-07 14:00:05,580 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-12-07 14:00:05,581 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2018-12-07 14:00:05,582 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-12-07 14:00:05,584 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2018-12-07 14:00:05,586 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2018-12-07 14:00:11,767 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"cf21c41c-49c5-4a6c-aee2-f1591266a769","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-12-07T06:00:11.7213128Z","Properties":{}}
+DEBUG 2018-12-07 14:00:50,917 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"cf7e1e31-e1e7-43be-bead-6ae89c375c34","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-12-07T06:00:50.9165319Z","Properties":{}}
+DEBUG 2018-12-07 14:00:51,110 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: cf7e1e31-e1e7-43be-bead-6ae89c375c34
+DEBUG 2018-12-07 14:01:01,236 [6    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2018-12-07 14:01:01,238 [6    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-12-07 14:01:01,239 [6    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-12-07 14:01:01,239 [6    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2018-12-07 14:01:21,282 [14   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-12-07 14:01:21,310 [14   ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+DEBUG 2018-12-07 14:01:21,316 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.Web.AbpZeroTemplateWebModule, ZOGLAB.S_3MS.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 14:01:21,319 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 14:01:21,320 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 14:01:21,320 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 14:01:21,320 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 14:01:21,322 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 14:01:21,323 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 14:01:21,323 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.AbpZeroTemplateDataModule, ZOGLAB.S_3MS.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 14:01:21,323 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 14:01:21,324 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 14:01:21,324 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.AbpZeroTemplateCoreModule, ZOGLAB.S_3MS.Core, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 14:01:21,324 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 14:01:21,324 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 14:01:21,325 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.AbpZeroTemplateApplicationModule, ZOGLAB.S_3MS.Application, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 14:01:21,325 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.WebApi.AbpZeroTemplateWebApiModule, ZOGLAB.S_3MS.WebApi, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 14:01:21,325 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 14:01:21,325 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 14:01:21,325 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 14:01:21,326 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 14:01:21,329 [14   ] Abp.Modules.AbpModuleManager             - 19 modules loaded.
+DEBUG 2018-12-07 14:01:21,677 [14   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 14:01:21,678 [14   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 14:01:21,678 [14   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 14:01:21,678 [14   ] o.Configuration.LanguageManagementConfig - Converted AbpZeroTemplate (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 14:01:22,407 [14   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZOGLAB.S_3MS.EntityFramework.AbpZeroTemplateDbContext, ZOGLAB.S_3MS.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 14:01:26,032 [14   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-12-07 14:01:26,043 [14   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-12-07 14:01:26,044 [14   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-12-07 14:01:26,069 [14   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-12-07 14:01:26,091 [14   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZeroTemplate
+DEBUG 2018-12-07 14:01:26,678 [14   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-12-07 14:01:31,358 [14   ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2018-12-07 14:01:31,643 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 35 classes define auto mapping attributes
+DEBUG 2018-12-07 14:01:31,644 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Friendships.Cache.FriendCacheItem
+DEBUG 2018-12-07 14:01:31,647 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-12-07 14:01:31,648 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-12-07 14:01:31,648 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Organizations.Dto.OrganizationUnitDto
+DEBUG 2018-12-07 14:01:31,648 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2018-12-07 14:01:31,649 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2018-12-07 14:01:31,649 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.MultiTenancy.Dto.TenantListDto
+DEBUG 2018-12-07 14:01:31,650 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.MultiTenancy.Dto.TenantEditDto
+DEBUG 2018-12-07 14:01:31,650 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2018-12-07 14:01:31,650 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2018-12-07 14:01:31,650 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Friendships.Dto.FriendDto
+DEBUG 2018-12-07 14:01:31,650 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Editions.Dto.EditionEditDto
+DEBUG 2018-12-07 14:01:31,651 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Editions.Dto.FlatFeatureDto
+DEBUG 2018-12-07 14:01:31,651 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Editions.Dto.EditionListDto
+DEBUG 2018-12-07 14:01:31,651 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Chat.Dto.ChatMessageDto
+DEBUG 2018-12-07 14:01:31,651 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Chat.Dto.ChatUserDto
+DEBUG 2018-12-07 14:01:31,651 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2018-12-07 14:01:31,651 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2018-12-07 14:01:31,651 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2018-12-07 14:01:31,651 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Dto.UserListDto
+DEBUG 2018-12-07 14:01:31,651 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Roles.Dto.RoleListDto
+DEBUG 2018-12-07 14:01:31,651 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2018-12-07 14:01:31,651 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2018-12-07 14:01:31,651 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2018-12-07 14:01:31,651 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Auditing.Dto.AuditLogListDto
+DEBUG 2018-12-07 14:01:31,651 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-12-07 14:01:31,651 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2018-12-07 14:01:31,651 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-12-07 14:01:31,651 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2018-12-07 14:01:31,651 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2018-12-07 14:01:31,651 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2018-12-07 14:01:31,651 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2018-12-07 14:01:31,652 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2018-12-07 14:01:31,652 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2018-12-07 14:01:31,652 [14   ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-12-07 14:01:32,862 [14   ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2018-12-07 14:01:32,910 [14   ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2018-12-07 14:01:32,926 [14   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2018-12-07 14:01:32,927 [14   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2018-12-07 14:01:32,929 [14   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-12-07 14:01:32,930 [14   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2018-12-07 14:01:32,931 [14   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2018-12-07 14:01:32,935 [14   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-12-07 14:01:32,936 [14   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2018-12-07 14:01:32,941 [14   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2018-12-07 14:01:32,942 [14   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2018-12-07 14:01:32,944 [14   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2018-12-07 14:01:32,945 [14   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2018-12-07 14:01:32,946 [14   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2018-12-07 14:01:32,948 [14   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2018-12-07 14:01:32,950 [14   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2018-12-07 14:01:32,951 [14   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2018-12-07 14:01:32,953 [14   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2018-12-07 14:01:32,958 [14   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2018-12-07 14:01:32,960 [14   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-12-07 14:01:32,961 [14   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2018-12-07 14:01:32,963 [14   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-12-07 14:01:32,964 [14   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2018-12-07 14:01:32,966 [14   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+ERROR 2018-12-07 14:01:33,967 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - Can not find IP address of the client! connectionId: cf7e1e31-e1e7-43be-bead-6ae89c375c34
+ERROR 2018-12-07 14:01:33,968 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - 值不在预期的范围内。
+System.ArgumentException: 值不在预期的范围内。
+   在 System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   在 System.Web.Hosting.IIS7WorkerRequest.GetServerVariableInternal(String name)
+   在 System.Web.Hosting.IIS7WorkerRequest.GetServerVariable(String name)
+   在 System.Web.HttpRequest.FillInServerVariablesCollection()
+   在 System.Web.HttpServerVarsCollection.Populate()
+   在 System.Web.HttpServerVarsCollection.Get(String name)
+   在 Microsoft.Owin.Host.SystemWeb.OwinCallContext.Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.IPropertySource.GetServerRemoteIpAddress()
+   在 Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.get_ServerRemoteIpAddress()
+   在 Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.PropertiesTryGetValue(String key, Object& value)
+   在 Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.System.Collections.Generic.IDictionary<System.String,System.Object>.get_Item(String key)
+   在 Abp.Web.SignalR.Hubs.AbpCommonHub.GetIpAddressOfClient()
+DEBUG 2018-12-07 14:01:39,050 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"cf7e1e31-e1e7-43be-bead-6ae89c375c34","IpAddress":"","TenantId":1,"UserId":2,"ConnectTime":"2018-12-07T06:01:33.9741115Z","Properties":{}}
+DEBUG 2018-12-07 14:01:39,061 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6bb61613-7a82-454b-98a9-23bfb3e43a27","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-12-07T06:01:39.0602291Z","Properties":{}}
+ERROR 2018-12-07 14:01:39,070 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - Can not find IP address of the client! connectionId: cf21c41c-49c5-4a6c-aee2-f1591266a769
+ERROR 2018-12-07 14:01:39,070 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - 值不在预期的范围内。
+System.ArgumentException: 值不在预期的范围内。
+   在 System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   在 System.Web.Hosting.IIS7WorkerRequest.GetServerVariableInternal(String name)
+   在 System.Web.Hosting.IIS7WorkerRequest.GetServerVariable(String name)
+   在 System.Web.HttpRequest.FillInServerVariablesCollection()
+   在 System.Web.HttpServerVarsCollection.Populate()
+   在 System.Web.HttpServerVarsCollection.Get(String name)
+   在 Microsoft.Owin.Host.SystemWeb.OwinCallContext.Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.IPropertySource.GetServerRemoteIpAddress()
+   在 Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.get_ServerRemoteIpAddress()
+   在 Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.PropertiesTryGetValue(String key, Object& value)
+   在 Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.System.Collections.Generic.IDictionary<System.String,System.Object>.get_Item(String key)
+   在 Abp.Web.SignalR.Hubs.AbpCommonHub.GetIpAddressOfClient()
+DEBUG 2018-12-07 14:01:39,070 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"cf21c41c-49c5-4a6c-aee2-f1591266a769","IpAddress":"","TenantId":1,"UserId":2,"ConnectTime":"2018-12-07T06:01:39.0702521Z","Properties":{}}
+DEBUG 2018-12-07 14:02:24,557 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 6bb61613-7a82-454b-98a9-23bfb3e43a27
+DEBUG 2018-12-07 14:02:32,775 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1a086eb3-0654-487b-8b60-ba719fedaaf9","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-12-07T06:02:32.7745611Z","Properties":{}}
+DEBUG 2018-12-07 14:02:32,833 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1a086eb3-0654-487b-8b60-ba719fedaaf9
+DEBUG 2018-12-07 14:05:21,025 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"785e7114-abee-4526-95ae-2d4a45a315eb","IpAddress":"::1","TenantId":1,"UserId":3,"ConnectTime":"2018-12-07T06:05:21.0241463Z","Properties":{}}
+DEBUG 2018-12-07 14:05:21,087 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 785e7114-abee-4526-95ae-2d4a45a315eb
+DEBUG 2018-12-07 14:05:39,295 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1a086eb3-0654-487b-8b60-ba719fedaaf9
+DEBUG 2018-12-07 14:06:09,215 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 785e7114-abee-4526-95ae-2d4a45a315eb
+DEBUG 2018-12-07 14:06:15,142 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8ab32789-948f-477b-8fcd-78558a5d2b79","IpAddress":"::1","TenantId":1,"UserId":3,"ConnectTime":"2018-12-07T06:06:15.1412593Z","Properties":{}}
+DEBUG 2018-12-07 14:06:15,303 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8ab32789-948f-477b-8fcd-78558a5d2b79
+WARN  2018-12-07 14:06:33,281 [8    ] .S_3MS.Web.Controllers.AccountController - 登录失败!
+Abp.UI.UserFriendlyException: 登录失败!
+   在 ZOGLAB.S_3MS.Web.Controllers.AccountController.<GetLoginResultAsync>d__23.MoveNext() 位置 C:\FH\Source\ZOGLAB.3MS.Web\src\ZOGLAB.S_3MS.Web\Controllers\AccountController.cs:行号 214
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 ZOGLAB.S_3MS.Web.Controllers.AccountController.<Login>d__20.MoveNext() 位置 C:\FH\Source\ZOGLAB.3MS.Web\src\ZOGLAB.S_3MS.Web\Controllers\AccountController.cs:行号 143
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2018-12-07 14:06:46,953 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"19cd6f0c-a3fb-4343-82bd-063519672763","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-12-07T06:06:46.9528927Z","Properties":{}}
+DEBUG 2018-12-07 14:06:46,982 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 19cd6f0c-a3fb-4343-82bd-063519672763
+DEBUG 2018-12-07 14:07:00,206 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8ab32789-948f-477b-8fcd-78558a5d2b79
+DEBUG 2018-12-07 14:07:33,597 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ba8d2e32-b90a-43f4-93c5-ee5ef36aa48e","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-12-07T06:07:33.5966041Z","Properties":{}}
+DEBUG 2018-12-07 14:07:33,661 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ba8d2e32-b90a-43f4-93c5-ee5ef36aa48e
+DEBUG 2018-12-07 14:07:50,445 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 19cd6f0c-a3fb-4343-82bd-063519672763
+DEBUG 2018-12-07 14:07:53,478 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f3b8d78f-a8e8-42b5-b8e3-a12fd9ab832f","IpAddress":"::1","TenantId":1,"UserId":3,"ConnectTime":"2018-12-07T06:07:53.4789178Z","Properties":{}}
+DEBUG 2018-12-07 14:07:53,634 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f3b8d78f-a8e8-42b5-b8e3-a12fd9ab832f
+DEBUG 2018-12-07 14:08:15,557 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ba8d2e32-b90a-43f4-93c5-ee5ef36aa48e
+DEBUG 2018-12-07 15:47:05,941 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-12-07 15:47:05,963 [1    ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+DEBUG 2018-12-07 15:47:05,969 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.Web.AbpZeroTemplateWebModule, ZOGLAB.S_3MS.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 15:47:05,971 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 15:47:05,971 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 15:47:05,971 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 15:47:05,971 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 15:47:05,971 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 15:47:05,971 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 15:47:05,971 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.AbpZeroTemplateDataModule, ZOGLAB.S_3MS.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 15:47:05,972 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 15:47:05,972 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 15:47:05,972 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.AbpZeroTemplateCoreModule, ZOGLAB.S_3MS.Core, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 15:47:05,972 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 15:47:05,973 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 15:47:05,973 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.AbpZeroTemplateApplicationModule, ZOGLAB.S_3MS.Application, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 15:47:05,973 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZOGLAB.S_3MS.WebApi.AbpZeroTemplateWebApiModule, ZOGLAB.S_3MS.WebApi, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 15:47:05,973 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 15:47:05,973 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 15:47:05,973 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 15:47:05,974 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 15:47:05,977 [1    ] Abp.Modules.AbpModuleManager             - 19 modules loaded.
+DEBUG 2018-12-07 15:47:06,247 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 15:47:06,247 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 15:47:06,247 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 15:47:06,247 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZeroTemplate (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-07 15:47:06,909 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZOGLAB.S_3MS.EntityFramework.AbpZeroTemplateDbContext, ZOGLAB.S_3MS.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-07 15:47:09,958 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-12-07 15:47:09,969 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-12-07 15:47:09,969 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-12-07 15:47:09,989 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-12-07 15:47:10,010 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZeroTemplate
+DEBUG 2018-12-07 15:47:10,270 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-12-07 15:47:12,907 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2018-12-07 15:47:13,245 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 35 classes define auto mapping attributes
+DEBUG 2018-12-07 15:47:13,245 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Friendships.Cache.FriendCacheItem
+DEBUG 2018-12-07 15:47:13,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-12-07 15:47:13,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-12-07 15:47:13,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Organizations.Dto.OrganizationUnitDto
+DEBUG 2018-12-07 15:47:13,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2018-12-07 15:47:13,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2018-12-07 15:47:13,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.MultiTenancy.Dto.TenantListDto
+DEBUG 2018-12-07 15:47:13,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.MultiTenancy.Dto.TenantEditDto
+DEBUG 2018-12-07 15:47:13,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2018-12-07 15:47:13,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2018-12-07 15:47:13,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Friendships.Dto.FriendDto
+DEBUG 2018-12-07 15:47:13,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Editions.Dto.EditionEditDto
+DEBUG 2018-12-07 15:47:13,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Editions.Dto.FlatFeatureDto
+DEBUG 2018-12-07 15:47:13,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Editions.Dto.EditionListDto
+DEBUG 2018-12-07 15:47:13,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Chat.Dto.ChatMessageDto
+DEBUG 2018-12-07 15:47:13,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Chat.Dto.ChatUserDto
+DEBUG 2018-12-07 15:47:13,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2018-12-07 15:47:13,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2018-12-07 15:47:13,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2018-12-07 15:47:13,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Dto.UserListDto
+DEBUG 2018-12-07 15:47:13,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Roles.Dto.RoleListDto
+DEBUG 2018-12-07 15:47:13,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2018-12-07 15:47:13,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2018-12-07 15:47:13,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2018-12-07 15:47:13,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Auditing.Dto.AuditLogListDto
+DEBUG 2018-12-07 15:47:13,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-12-07 15:47:13,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2018-12-07 15:47:13,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-12-07 15:47:13,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2018-12-07 15:47:13,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2018-12-07 15:47:13,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2018-12-07 15:47:13,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2018-12-07 15:47:13,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2018-12-07 15:47:13,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2018-12-07 15:47:13,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZOGLAB.S_3MS.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-12-07 15:47:13,936 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2018-12-07 15:47:13,983 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2018-12-07 15:47:13,995 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2018-12-07 15:47:13,997 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2018-12-07 15:47:13,999 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-12-07 15:47:14,000 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2018-12-07 15:47:14,002 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2018-12-07 15:47:14,003 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-12-07 15:47:14,004 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2018-12-07 15:47:14,005 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2018-12-07 15:47:14,006 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2018-12-07 15:47:14,008 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2018-12-07 15:47:14,009 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2018-12-07 15:47:14,011 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2018-12-07 15:47:14,012 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2018-12-07 15:47:14,013 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2018-12-07 15:47:14,015 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2018-12-07 15:47:14,016 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2018-12-07 15:47:14,018 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2018-12-07 15:47:14,019 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-12-07 15:47:14,020 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2018-12-07 15:47:14,022 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-12-07 15:47:14,023 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2018-12-07 15:47:14,025 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZOGLAB.S_3MS.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2018-12-07 15:49:52,497 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"757427b5-2b65-46cb-83f3-6d0e62422880","IpAddress":"::1","TenantId":1,"UserId":3,"ConnectTime":"2018-12-07T07:49:52.4825492Z","Properties":{}}
+DEBUG 2018-12-07 15:49:52,930 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 757427b5-2b65-46cb-83f3-6d0e62422880

@@ -52,7 +52,7 @@ namespace ZOGLAB.S_3MS.SD
 
         //6.登录口令
         [MaxLength(MaxLength_50)]
-        public int Pwd { get; set; }
+        public string Pwd { get; set; }
 
         //8.联系电话
         [MaxLength(MaxLength_20)]

@@ -27,6 +27,7 @@
     <TypeScriptToolsVersion>2.1</TypeScriptToolsVersion>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -2289,6 +2290,7 @@
     <Content Include="libs\jquery-jtable\jTable.jquery.json" />
     <Content Include="libs\jquery-jtable\package.json" />
     <Content Include="libs\jquery-jtable\README.md" />
+    <Content Include="libman.json" />
     <None Include="Properties\PublishProfiles\aspnetzero - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.6.4-vsdoc.js" />
     <Content Include="Scripts\i18n\angular-locale_af-na.js" />

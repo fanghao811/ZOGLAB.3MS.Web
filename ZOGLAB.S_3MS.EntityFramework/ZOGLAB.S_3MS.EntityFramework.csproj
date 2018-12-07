@@ -392,6 +392,10 @@
     <Compile Include="Migrations\201812060941444_Added-BD_report_and_system_and_util_entities.Designer.cs">
       <DependentUpon>201812060941444_Added-BD_report_and_system_and_util_entities.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812070342170_added_12_SD_entities.cs" />
+    <Compile Include="Migrations\201812070342170_added_12_SD_entities.Designer.cs">
+      <DependentUpon>201812070342170_added_12_SD_entities.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="AbpZeroTemplateDataModule.cs" />
     <Compile Include="Migrations\Seed\Host\DefaultEditionCreator.cs" />
@@ -590,6 +594,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812060941444_Added-BD_report_and_system_and_util_entities.resx">
       <DependentUpon>201812060941444_Added-BD_report_and_system_and_util_entities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812070342170_added_12_SD_entities.resx">
+      <DependentUpon>201812070342170_added_12_SD_entities.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

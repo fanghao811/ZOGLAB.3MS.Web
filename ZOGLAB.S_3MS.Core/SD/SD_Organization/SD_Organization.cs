@@ -33,11 +33,11 @@ namespace ZOGLAB.S_3MS.SD
 
         //5.电话
         [MaxLength(MaxLength_50)]
-        public int Tel { get; set; }
+        public string Tel { get; set; }
 
         //6.联系人
         [MaxLength(MaxLength_50)]
-        public int Contact { get; set; }
+        public string Contact { get; set; }
 
         //7.服务器IP
         [MaxLength(MaxLength_50)]

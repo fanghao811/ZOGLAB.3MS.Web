@@ -33,7 +33,7 @@ namespace ZOGLAB.S_3MS.SD
 
         //5.备注
         [MaxLength(MaxLength_100)]
-        public int Memo { get; set; }
+        public string Memo { get; set; }
 
         //10.录入日期
         public DateTime CreationTime { get; set; }
