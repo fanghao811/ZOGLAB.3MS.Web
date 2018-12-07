@@ -10,7 +10,7 @@ using ZOGLAB.S_3MS.Authorization.Roles;
 namespace ZOGLAB.S_3MS.SD
 {
     /// <summary>
-    /// 共用信息配置表(SD_Utils)
+    /// 10,系统报表数据表(SD_Report)
     /// </summary>
     [Table("SD_Report")]
     public class SD_Report : Entity<long>, IHasCreationTime,IDeletionAudited

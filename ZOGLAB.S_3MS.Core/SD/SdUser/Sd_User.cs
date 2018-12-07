@@ -26,7 +26,10 @@ namespace ZOGLAB.S_3MS.SD
         public virtual long? UserId { get; set; }
         //TODO: 外键实现
         //角色ID
-        public long Role_ID { get; set; }
+
+        [ForeignKey("Role_ID")]
+        public SD_Role SD_Role { get; set; }
+        public virtual long? Role_ID { get; set; }
 
         //1.用户编码
         [MaxLength(MaxLength_20)]

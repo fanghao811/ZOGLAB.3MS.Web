@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace ZOGLAB.S_3MS.SD
 {
     /// <summary>
-    /// 系统配置信息表(SD_System)
+    /// 12,系统配置信息表(SD_System)
     /// </summary>
     [Table("SD_System")]
     public class SD_System :Entity<long>, IHasCreationTime

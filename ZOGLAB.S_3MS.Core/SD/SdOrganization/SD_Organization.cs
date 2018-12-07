@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace ZOGLAB.S_3MS.SD
 {
     /// <summary>
-    /// 共用信息配置表(SD_Utils)
+    /// 1，系统组织机构表(SD_Organization)
     /// </summary>
     [Table("SD_Organization")]
     public class SD_Organization : Entity<long>, IHasCreationTime
